@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, abort, render_template
+from flask import Flask, jsonify
 from flask.ext.sqlalchemy import SQLAlchemy
 
 #Application Setup
@@ -8,7 +8,6 @@ app.config.from_object('settings')
 #Database Setup
 db = SQLAlchemy(app)  
 
-@app.route('/api/', methods=['GET', 'OPTIONS'])
+@app.route('/api/', methods=['GET'])
 def index():
-  response = jsonify({'status' : 'online'})
-  return response
+  return jsonify({'status' : 'online'})
