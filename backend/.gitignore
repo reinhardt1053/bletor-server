@@ -1,0 +1,8 @@
+# Byte-compiled 
+*.pyc
+
+# VirtualEnv
+venv
+
+# Settings
+settings.py

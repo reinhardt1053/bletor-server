@@ -1,0 +1,7 @@
+SQLALCHEMY_DATABASE_URI = 'postgresql://bletor:password@localhost/bletordb'
+SQLALCHEMY_ECHO = True
+DATABASE_CONNECT_OPTIONS = {}
+DEBUG = True
+
+MAX_RESULTS_PER_PAGE = 10000
+RESULTS_PER_PAGE = 20
