@@ -27,3 +27,8 @@ Make a decision with your friends
 	```
 
 4. Head your browser to http://localhost:5000/api/
+
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/reinhardt1053/bletor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
+
+
