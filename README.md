@@ -1,6 +1,4 @@
-# Bletor
- 
-Make a decision with your friends
+# Bletor-Server
 
 ## Quick Start
 
